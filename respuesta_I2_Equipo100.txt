@@ -1,3 +1,17 @@
 Fernando Manuel Rivera
 Alejandro Yugar
 Cristian Roberto Pentito
+
+a- Primero verifico si el fork ya tiene configurado el upstream con:
+git remote -v. 
+
+Si no está configurado lo configuro con:
+git remote add upstream https://github.com/alejandrosyr/TP_SO_i2_Equipo100 (Al final ponemos el link que deseas configurar como upstream, en este caso, es el nuestro.)
+
+Y ahora actualizamos:
+git fetch upstream    #actualiza nuestro repo local con el repo en el cual hicimos fork
+git merge upstream/main    #Aplicamos cambios a nuestro repositorio principal
+git push origin main    #Subimos los cambios a nuestro repositorio
+
+b- No. Pero tiene la opción de agregar el fork de GAMMA como un nuevo remoto y así hacerlo.
+
