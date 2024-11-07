@@ -13,5 +13,6 @@ git fetch upstream    #actualiza nuestro repo local con el repo en el cual hicim
 git merge upstream/main    #Aplicamos cambios a nuestro repositorio principal
 git push origin main    #Subimos los cambios a nuestro repositorio
 
-b- No. Pero tiene la opción de agregar el fork de GAMMA como un nuevo remoto y así hacerlo.
-
+b- Si. Pero tiene que agregar el fork de ALFA como un nuevo remoto adicional y le hace fetch.
+c- Si. Pero tiene que agregar el fork de ALFA como un nuevo remoto adicional y le hace fetch.
+d- No, cuando actualizamos el fork hace una fusión de los datos, pero es posible que haya conflictos entre las versiones y estos tengan que ser resolvidos antes de hacer el merge.
