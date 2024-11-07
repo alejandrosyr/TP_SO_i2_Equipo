@@ -2,5 +2,34 @@ Fernando Manuel Rivera
 Alejandro Yugar
 Cristian Roberto Pentito
 
-c- No. Pero tiene la opción de agregar el fork de GAMMA como un nuevo remoto y así hacerlo.
-d- No. Agrega los cambios pero sin modificar mis cambios. 
+e- 
+
+1-
+BETA- Yugar Rodriguez, Alejandro
+En github hago un nuevo respositorio con el nombre TP_SO_I2_EQUIPO, tacho la opción de crear un readme.md. 
+En consola: 
+git clone https://github.com/alejandrosyr/TP_SO_i2_Equipo100 
+echo “ “ > fork.txt
+
+GAMMA- Pentito, Cristian
+git clone URL_DEL_REPOSITORIO
+git add .
+git commit
+git push
+
+git remote add upstream URL_DEL_REPOSITORIO_ORIGINAL
+git fetch upstream
+git merge upstream/main
+git push origin main
+
+ALFA- Rivera, Fernando Manuel
+git clone https://github.com/alejandrosyr/TP_SO_i2_Equipo100 
+git add .
+git commit -m "Fernando Rivera IP 192.168.1.33 07/11/2024 09:16"
+git push
+
+git remote add upstream URL_DEL_REPOSITORIO_ORIGINAL
+git fetch upstream
+git merge upstream/main
+git push origin main
+
