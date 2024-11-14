@@ -1,3 +1,4 @@
+
 Fernando Manuel Rivera
 Alejandro Yugar
 Cristian Roberto Pentito
@@ -23,3 +24,32 @@ Si. Pero tiene que agregar el fork de ALFA como un nuevo remoto adicional y hace
 d-
 No, pero si hay un conflicto git te dá diferentes opciones para resolverlo, como substituir los archivos o hacer una fusion. 
 
+e- 
+
+1- BETA: Yugar, Alejandro
+Creación de repo en GitHub.
+
+2- GAMMA: Pentito, Cristian
+Hace el fork por GitHub
+de forma local:
+git init
+git clone https://github.com/Cristian-Pentito/TP_SO_i2_Equipo100
+
+3- ALFA: Rivera, Fernando
+Hace el fork por GitHub
+de forma local:
+git init
+git clone https://github.com/riverafmbj/TP_SO_i2_Equipo100
+
+
+4- BETA: Yugar, Alejandro. 
+git init
+git clone https://github.com/alejandrosyr/TP_SO_i2_Equipo100
+creo archivo NuevoDato.txt 
+git add . 
+git commit -m "ADD: Agregado de NuevoDato.txt"
+git push
+
+5- GAMMA y ALFA: Pentito, Cristian; Rivera, Fernando
+git fetch upstream
+git merge upstream/main
