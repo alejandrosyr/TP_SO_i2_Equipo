@@ -1,2 +1,9 @@
+Fernando Manuel Rivera
+Alejandro Yugar
+Cristian Roberto Pentito
 
+c-
+Si. Pero tiene que agregar el fork de ALFA como un nuevo remoto adicional y hacer fetch y merge. 
 
+d-
+No, pero si hay un conflicto git te dá diferentes opciones para resolverlo, como substituir los archivos o hacer una fusion. 
