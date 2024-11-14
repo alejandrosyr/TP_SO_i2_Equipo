@@ -1,3 +1,7 @@
+Fernando Manuel Rivera
+Alejandro Yugar
+Cristian Roberto Pentito
+
 
 a- 
 Primero verifico si el fork ya tiene configurado el upstream con:
@@ -12,3 +16,10 @@ git merge upstream/main    #Aplicamos cambios a nuestro repositorio principal
 
 b- 
 Si. Pero tiene que agregar el fork de GAMMA como un nuevo remoto adicional y le hace fetch y merge.
+
+c-
+Si. Pero tiene que agregar el fork de ALFA como un nuevo remoto adicional y hacer fetch y merge. 
+
+d-
+No, pero si hay un conflicto git te dá diferentes opciones para resolverlo, como substituir los archivos o hacer una fusion. 
+
