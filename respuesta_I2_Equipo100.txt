@@ -1,4 +1,31 @@
+
+Fernando Manuel Rivera
+Alejandro Yugar
+Cristian Roberto Pentito
+
+
+a- 
+Primero verifico si el fork ya tiene configurado el upstream con:
+git remote -v. 
+
+Si no está configurado lo configuro con:
+git remote add upstream https://github.com/alejandrosyr/TP_SO_i2_Equipo100 (Al final ponemos el link que deseas configurar como upstream, en este caso, es el nuestro.)
+
+Y ahora actualizamos:
+git fetch upstream    #actualiza nuestro repo local con el repo en el cual hicimos fork
+git merge upstream/main    #Aplicamos cambios a nuestro repositorio principal
+
+b- 
+Si. Pero tiene que agregar el fork de GAMMA como un nuevo remoto adicional y le hace fetch y merge.
+
+c-
+Si. Pero tiene que agregar el fork de ALFA como un nuevo remoto adicional y hacer fetch y merge. 
+
+d-
+No, pero si hay un conflicto git te dá diferentes opciones para resolverlo, como substituir los archivos o hacer una fusion. 
+
 e- 
+
 1- BETA: Yugar, Alejandro
 Creación de repo en GitHub.
 
@@ -7,7 +34,6 @@ Hace el fork por GitHub
 de forma local:
 git init
 git clone https://github.com/Cristian-Pentito/TP_SO_i2_Equipo100
-
 
 3- ALFA: Rivera, Fernando
 Hace el fork por GitHub
